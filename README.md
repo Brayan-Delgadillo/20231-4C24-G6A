@@ -1,2 +1,2 @@
-# Proyecto Integrador . FRONTEND REACT
+# Proyecto Integrador - Frontend REACT
 GRUPO 6A
