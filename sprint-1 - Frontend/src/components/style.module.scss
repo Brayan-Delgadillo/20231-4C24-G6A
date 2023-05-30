@@ -1,0 +1,115 @@
+@import "~bootstrap/scss/bootstrap";
+
+.formContainer {
+  background-color: white;
+  border-radius: 8px;
+  min-width: 400px;
+  width: 70%;
+  max-width: 600px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h3 {
+    font-size: 20px;
+    font-weight: normal;
+    color: #2f2f2f;
+    margin-bottom: 10px;
+  }
+
+  h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #6358dc;
+    margin-bottom: 20px;
+  }
+
+  form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+    .inputContainer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #ececec;
+      padding: 10px 15px;
+      border-radius: 8px;
+
+      .left {
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+        width: 70%;
+
+        label {
+          font-size: 11px;
+        }
+
+        input {
+          border: none;
+          font-weight: bold;
+          background-color: inherit;
+          font-size: 13px;
+          color: #2f2f2f;
+          width: 261px; /* Ancho del campo de entrada */
+          height: 30px; /* Alto del campo de entrada */
+        }
+      }
+
+      svg {
+        width: 25px;
+        height: 20px;
+      }
+    }
+
+    button {
+      margin-top: 10px;
+      border: none;
+      width: 100%;
+      padding: 10px 0;
+      cursor: pointer;
+      font-weight: 700;
+      font-size: 16px;
+      color: white;
+      background-color: #6358dc;
+      border-radius: 8px;
+      transition-duration: 0.3s;
+    }
+
+    button:hover {
+      background-color: #4235d6;
+    }
+
+    p {
+      text-align: center;
+      font-size: 12px;
+
+      b {
+        cursor: pointer;
+        color: #6358dc;
+      }
+
+      b:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.toast {
+    transition-duration: .3s;
+    background-color: #6358dc75;
+    border-radius: 8px;
+    width: 30%;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    margin-top: 15px;
+    padding: 10px;
+    
+}
